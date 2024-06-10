@@ -1,0 +1,104 @@
+.login-wrap {
+    /* box-shadow: 0 0 9px rgba(0, 0, 0, 0.3); */
+    /* border-radius: 15px; */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 30px 20px;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.login-wrap span.non-valid{
+  font-size: 12px;
+  color: rgb(254, 11, 11);
+}
+
+.login-wrap label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.login-wrap .input-wrap {
+    position: relative;
+}
+
+
+.login-wrap .form-select {
+    height: 45px;
+}
+
+.login-wrap .form-control {
+    height: 45px;
+    padding-left: 44px;
+}
+
+.login-wrap .input-icon {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    margin: auto;
+    line-height: 10px;
+    top: 0;
+    left: 15px;
+    bottom: 0;
+    font-size: 24px;
+    color: #a9a6a6;
+}
+
+/* Switch Toggle */
+
+.switch {
+    display: inline-block;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  .switch label {
+    display: block;
+    width: 60px;
+    height: 25px;
+    padding: 2px 4px;
+    border-radius: 15px;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #dbd8d8;
+  }
+  
+  .switch label::after {
+    content: "";
+    display: inherit;
+    width: 19px;
+    height: 19px;
+    border-radius: 12px;
+    background: #ffffff;
+    transition: 0.3s;
+  }
+  
+  .switch input:checked ~ label {
+    border-color: #ffffff;
+    border: 1px solid #cdcdcd;
+    background: #369636;
+  }
+  
+  .switch input:checked ~ label::after {
+    translate: 30px 0;
+    background: #ffffff;
+  }
+  
+  .switch input:disabled ~ label {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-wrap button.login-btn{
+    width: 250px;
+    background: #000;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+  }
